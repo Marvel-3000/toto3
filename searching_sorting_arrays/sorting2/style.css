@@ -1,0 +1,61 @@
+
+body{
+    padding:0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.heading{
+    margin-top: 10px;
+    text-align: center;
+    /* background-color: grey; */
+    margin-bottom: 50px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+}
+
+.box{
+    width: 500px;
+    height: 200px;
+    background-color:rgb(183, 233, 229);
+    padding: 10px;
+    border-radius: 3%;
+}
+
+/* .reverse,.sort1,.sort2,.search{
+    display: none;
+} */
+
+#binSearch,#insertS,#bubbleSort,#revArr{
+    background-color: #4e9fb4; /* Green */
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    text-align: center;    
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+#rev,#bub,#insertionsort,#binary,#x{
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+}
+
+#sort1,#sort2,#reverse,#search{
+font-size: 18px;
+}
+
+button{
+    border: none;
+    border-radius:50%;
+    color: black;
+    /* background-color:yellow */
+    padding: 4px;
+}
